@@ -36,7 +36,7 @@ const Landing: React.FC = () => {
               Operational Intelligence v2.5
             </div>
             <h1 className="text-7xl md:text-8xl font-black text-slate-900 leading-[0.9] tracking-tighter mb-10 italic">
-              Pr <br/><span className="text-blue-600">Inventory.</span>
+              Precision <br/><span className="text-blue-600">Inventory.</span>
             </h1>
             <p className="text-lg text-slate-500 font-medium max-w-lg leading-relaxed mb-12">
               The absolute source of truth for your stock. BlueLedger synchronizes your entire supply chain from warehouse floors to retail terminals in real-time.
