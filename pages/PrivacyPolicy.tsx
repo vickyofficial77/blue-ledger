@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +6,7 @@ const PrivacyPolicy: React.FC = () => {
     <div className="min-h-screen bg-slate-50 py-32 px-6 font-sans">
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-slate-100 z-50">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">BlueLedger</Link>
+          <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">Warenova</Link>
           <Link to="/" className="text-[10px] font-black uppercase tracking-widest text-slate-400">Home</Link>
         </div>
       </nav>
@@ -19,7 +18,7 @@ const PrivacyPolicy: React.FC = () => {
         <div className="space-y-12 text-slate-600 text-sm leading-relaxed">
            <section>
               <h3 className="text-slate-900 font-black uppercase text-xs mb-4 tracking-widest">1. Data Ingestion & Encapsulation</h3>
-              <p className="mb-4">BlueLedger processes asset registry data solely for the purpose of synchronization. We do not sell or monetize individual terminal data.</p>
+              <p className="mb-4">Warenova processes asset registry data solely for the purpose of synchronization. We do not sell or monetize individual terminal data.</p>
               <ul className="list-disc pl-6 space-y-2 text-xs">
                  <li>Operator Credentials (Name, Email)</li>
                  <li>Transaction Metadata (Timestamp, Quantity)</li>
@@ -29,12 +28,12 @@ const PrivacyPolicy: React.FC = () => {
 
            <section>
               <h3 className="text-slate-900 font-black uppercase text-xs mb-4 tracking-widest">2. Atomic Storage Integrity</h3>
-              <p>Data stored in the BlueLedger core registry is encrypted at rest using AES-256 standards. Our personnel have zero access to your specific pricing or inventory totals unless explicitly authorized via a Support Tunnel.</p>
+              <p>Data stored in the Warenova core registry is encrypted at rest using AES-256 standards. Our personnel have zero access to your specific pricing or inventory totals unless explicitly authorized via a Support Tunnel.</p>
            </section>
 
            <section>
               <h3 className="text-slate-900 font-black uppercase text-xs mb-4 tracking-widest">3. Global Data Sovereignty</h3>
-              <p>BlueLedger respects GDPR, CCPA, and HIPAA requirements. Users may request a full "Atomic Purge" of their enterprise registry at any time, which irrevocably deletes all cloud and edge node data within 24 hours.</p>
+              <p>Warenova respects GDPR, CCPA, and HIPAA requirements. Users may request a full "Atomic Purge" of their enterprise registry at any time, which irrevocably deletes all cloud and edge node data within 24 hours.</p>
            </section>
 
            <section className="pt-12 border-t border-slate-100">

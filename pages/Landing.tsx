@@ -8,7 +8,7 @@ const Landing: React.FC = () => {
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-xl border-b border-slate-100 z-50">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link to="/" className="flex flex-col group">
-            <span className="text-xl font-black uppercase tracking-tighter text-blue-600 group-hover:text-slate-900 transition-colors">BlueLedger</span>
+            <span className="text-xl font-black uppercase tracking-tighter text-blue-600 group-hover:text-slate-900 transition-colors">WareNova</span>
             <span className="text-[8px] font-bold uppercase tracking-[0.3em] text-slate-400">Enterprise Asset Sync</span>
           </Link>
           <div className="hidden md:flex space-x-10 text-[10px] font-black uppercase tracking-widest text-slate-400">
@@ -39,7 +39,7 @@ const Landing: React.FC = () => {
               Precision <br/><span className="text-blue-600">Inventory.</span>
             </h1>
             <p className="text-lg text-slate-500 font-medium max-w-lg leading-relaxed mb-12">
-              The absolute source of truth for your stock. BlueLedger synchronizes your entire supply chain from warehouse floors to retail terminals in real-time.
+              The absolute source of truth for your stock. WareNova synchronizes your entire supply chain from warehouse floors to retail terminals in real-time.
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <Link to="/signup" className="px-10 py-5 bg-blue-600 text-white font-black uppercase tracking-widest text-xs hover:bg-blue-700 transition-all shadow-2xl text-center">
@@ -98,7 +98,7 @@ const Landing: React.FC = () => {
               <span className="text-blue-600 text-[10px] font-black uppercase tracking-[0.4em] mb-6 block">Latency Benchmark</span>
               <h2 className="text-5xl font-black uppercase tracking-tighter leading-none mb-10 italic">The sub-second <br/>Advantage.</h2>
               <p className="text-slate-500 mb-12 leading-relaxed">
-                Legacy ERP systems rely on polling cycles that leave inventory blind spots for seconds or even minutes. BlueLedger’s WebSocket sync core reduces this window to under 100ms globally.
+                Legacy ERP systems rely on polling cycles that leave inventory blind spots for seconds or even minutes. WareNova’s WebSocket sync core reduces this window to under 100ms globally.
               </p>
               <div className="space-y-10">
                 <div>
@@ -108,7 +108,7 @@ const Landing: React.FC = () => {
                    </div>
                 </div>
                 <div>
-                   <div className="flex justify-between text-[10px] font-black uppercase mb-3"><span>BlueLedger Sync Core</span><span className="text-blue-600">0.09s Lag</span></div>
+                   <div className="flex justify-between text-[10px] font-black uppercase mb-3"><span>WareNova Sync Core</span><span className="text-blue-600">0.09s Lag</span></div>
                    <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
                       <div className="w-[8%] h-full bg-blue-600"></div>
                    </div>
@@ -243,7 +243,7 @@ const Landing: React.FC = () => {
             <div className="space-y-12">
               <span className="text-blue-600 text-[10px] font-black uppercase tracking-[0.4em] block italic">Operator Insights</span>
               <p className="text-4xl font-black uppercase tracking-tighter leading-tight italic">
-                "BlueLedger eliminated our inventory drift within 48 hours of deployment. The sync speed is unlike anything we've tested in the cloud."
+                "WareNova eliminated our inventory drift within 48 hours of deployment. The sync speed is unlike anything we've tested in the cloud."
               </p>
               <div className="flex items-center space-x-6">
                 <div className="w-16 h-16 bg-slate-900 flex-shrink-0 flex items-center justify-center font-black text-white text-xs">LOGI</div>
@@ -290,8 +290,8 @@ const Landing: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-2 space-y-8">
             <div className="flex flex-col">
-              <span className="text-2xl font-black uppercase tracking-tighter text-blue-600">BlueLedger</span>
-              <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400 mt-2">© 2025 BlueLedger Systems LLC. <br/>Precision Operations Guaranteed.</span>
+              <span className="text-2xl font-black uppercase tracking-tighter text-blue-600">WareNova</span>
+              <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400 mt-2">© 2025 WareNova Systems LLC. <br/>Precision Operations Guaranteed.</span>
             </div>
             <div className="flex space-x-6 text-[10px] font-black uppercase tracking-widest text-slate-400 underline decoration-slate-200 underline-offset-4">
               <a href="#" className="hover:text-blue-600">Twitter</a>

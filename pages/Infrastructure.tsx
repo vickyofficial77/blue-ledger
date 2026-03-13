@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,7 +5,7 @@ const Infrastructure: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-900 text-white font-sans">
       <nav className="h-20 border-b border-white/10 flex items-center justify-between px-6 max-w-7xl mx-auto">
-        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-500">BlueLedger</Link>
+        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-500">Warenova</Link>
         <Link to="/api-docs" className="text-[10px] font-black uppercase tracking-widest border border-white/20 px-6 py-2">View API</Link>
       </nav>
 
@@ -26,7 +25,7 @@ const Infrastructure: React.FC = () => {
            <div>
               <h2 className="text-4xl font-black uppercase tracking-tighter mb-8">Redundant <br/><span className="text-blue-500">Node Grid.</span></h2>
               <p className="text-slate-400 leading-relaxed mb-12">
-                 BlueLedger utilizes a mesh network of Tier-4 data centers. If a primary node becomes unreachable, the terminal logic initiates an automatic failover to the secondary standby node in 3.5 seconds.
+                 Warenova utilizes a mesh network of Tier-4 data centers. If a primary node becomes unreachable, the terminal logic initiates an automatic failover to the secondary standby node in 3.5 seconds.
               </p>
               <div className="grid grid-cols-2 gap-8">
                  <div className="bg-white/5 p-8 border border-white/10">

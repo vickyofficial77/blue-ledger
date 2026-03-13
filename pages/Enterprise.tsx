@@ -5,7 +5,7 @@ const Enterprise: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-900 text-white font-sans selection:bg-blue-600/30">
       <nav className="h-20 border-b border-white/10 flex items-center justify-between px-6 max-w-7xl mx-auto sticky top-0 bg-slate-900/80 backdrop-blur-md z-50">
-        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-500">BlueLedger</Link>
+        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-500">Warenova</Link>
         <div className="flex items-center space-x-8">
           <Link to="/contact" className="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-white transition-colors">Request Quote</Link>
           <Link to="/login" className="text-[10px] font-black uppercase tracking-widest border border-white/20 px-6 py-2 hover:bg-white hover:text-slate-900 transition-all">Operator Login</Link>
@@ -17,7 +17,7 @@ const Enterprise: React.FC = () => {
            <span className="text-blue-500 text-[10px] font-black uppercase tracking-[0.5em] mb-6 block animate-pulse">Enterprise v2.5 Deployment</span>
            <h1 className="text-7xl md:text-9xl font-black uppercase tracking-tighter leading-[0.8] mb-12">Global <br/>Command.</h1>
            <p className="text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">
-              Standardize your global inventory protocols. BlueLedger Enterprise provides a single pane of glass for multi-warehouse reconciliation, high-volume sales bursts, and military-grade security audits.
+              Standardize your global inventory protocols. Warenova Enterprise provides a single pane of glass for multi-warehouse reconciliation, high-volume sales bursts, and military-grade security audits.
            </p>
         </div>
 
@@ -96,7 +96,7 @@ const Enterprise: React.FC = () => {
                  <p>{`}`}</p>
               </div>
               <div className="mt-8 pt-6 border-t border-white/5 text-[9px] uppercase tracking-widest">
-                SYSTEM IDENTIFIER: BLUE_LEDGER_ENT_PRIME
+                SYSTEM IDENTIFIER: WARENOVA_ENT_PRIME
               </div>
            </div>
         </section>

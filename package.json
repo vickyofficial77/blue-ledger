@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@google/genai": "^1.38.0",
     "firebase": "^12.8.0",
     "lucide-react": "^0.564.0",

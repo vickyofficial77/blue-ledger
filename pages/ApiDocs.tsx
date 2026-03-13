@@ -70,7 +70,7 @@ const ApiDocs: React.FC = () => {
            <div className="bg-slate-900 p-8 rounded-none text-white font-mono text-xs mb-12 shadow-2xl border-l-4 border-blue-600">
               {lang === 'javascript' && (
                 <>
-                  <span className="text-emerald-400">const</span> ledger = <span className="text-emerald-400">new</span> BlueLedger(<span className="text-blue-400">'API_KEY'</span>);<br/><br/>
+                  <span className="text-emerald-400">const</span> ledger = <span className="text-emerald-400">new</span> Warenova(<span className="text-blue-400">'API_KEY'</span>);<br/><br/>
                   <span className="text-slate-500">// Atomic Deduct Transaction</span><br/>
                   <span className="text-emerald-400">await</span> ledger.products.deduct(<span className="text-blue-400">'SKU_902'</span>, <span className="text-emerald-400">{`{ qty: 1 }`}</span>);<br/><br/>
                   <span className="text-slate-500">// Returns: {`{ success: true, latency: "42ms" }`}</span>
@@ -78,15 +78,15 @@ const ApiDocs: React.FC = () => {
               )}
               {lang === 'python' && (
                 <>
-                  <span className="text-emerald-400">import</span> blueledger<br/><br/>
-                  client = blueledger.Client(<span className="text-blue-400">"API_KEY"</span>)<br/><br/>
+                  <span className="text-emerald-400">import</span> warenova<br/><br/>
+                  client = warenova.Client(<span className="text-blue-400">"API_KEY"</span>)<br/><br/>
                   <span className="text-slate-500"># Deduct inventory units</span><br/>
                   response = client.products.deduct(<span className="text-blue-400">"SKU_902"</span>, qty=<span className="text-blue-400">1</span>)
                 </>
               )}
               {lang === 'go' && (
                 <>
-                  ledger := blueledger.NewClient(<span className="text-blue-400">"API_KEY"</span>)<br/><br/>
+                  ledger := warenova.NewClient(<span className="text-blue-400">"API_KEY"</span>)<br/><br/>
                   <span className="text-slate-500">// Execute atomic deduction</span><br/>
                   err := ledger.Products.Deduct(<span className="text-blue-400">"SKU_902"</span>, <span className="text-blue-400">1</span>)
                 </>

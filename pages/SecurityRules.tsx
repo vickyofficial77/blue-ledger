@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,7 +5,7 @@ const SecurityRules: React.FC = () => {
   return (
     <div className="min-h-screen bg-white text-slate-900 font-sans">
       <nav className="h-20 border-b border-slate-100 flex items-center justify-between px-6 max-w-7xl mx-auto">
-        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">BlueLedger</Link>
+        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">Warenova</Link>
         <Link to="/api-docs" className="text-[10px] font-black uppercase tracking-widest text-slate-400">View Docs</Link>
       </nav>
 

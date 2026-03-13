@@ -6,7 +6,7 @@ const Sectors: React.FC = () => {
     <div className="min-h-screen bg-white text-slate-900 font-sans selection:bg-blue-100">
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-slate-100 z-50">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">BlueLedger</Link>
+          <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">Warenova</Link>
           <div className="flex items-center space-x-8 text-[10px] font-black uppercase tracking-widest text-slate-400">
              <Link to="/enterprise" className="hover:text-blue-600 transition-colors">Enterprise</Link>
              <Link to="/contact" className="hover:text-blue-600 transition-colors">Support</Link>
@@ -20,7 +20,7 @@ const Sectors: React.FC = () => {
           <span className="text-blue-600 text-[10px] font-black uppercase tracking-[0.4em] mb-4 block italic">Target Verticals</span>
           <h1 className="text-8xl md:text-9xl font-black uppercase tracking-tighter leading-[0.8] mb-12 italic">Vertical <br/><span className="text-blue-600">Sync.</span></h1>
           <p className="text-xl text-slate-500 font-medium leading-relaxed max-w-2xl">
-            From industrial supply chains to high-end luxury retail, BlueLedger provides the sub-second precision needed for complex, high-concurrency asset environments.
+            From industrial supply chains to high-end luxury retail, Warenova provides the sub-second precision needed for complex, high-concurrency asset environments.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ const Sectors: React.FC = () => {
             { 
               title: 'Global Retail', 
               problem: 'Legacy POS lag causing inventory over-selling during high-volume flash sales.',
-              solution: 'Atomic stock updates broadcast across 100+ stores in &lt; 100ms.',
+              solution: 'Atomic stock updates broadcast across 100+ stores in < 100ms.',
               img: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800'
             },
             { 

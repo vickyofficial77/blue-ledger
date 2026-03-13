@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,7 +5,7 @@ const About: React.FC = () => {
   return (
     <div className="min-h-screen bg-white text-slate-900 font-sans">
       <nav className="h-20 border-b border-slate-100 flex items-center justify-between px-6 max-w-7xl mx-auto">
-        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">BlueLedger</Link>
+        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">Warenova</Link>
         <Link to="/contact" className="text-[10px] font-black uppercase tracking-widest text-slate-400">Connect</Link>
       </nav>
 
@@ -16,7 +15,7 @@ const About: React.FC = () => {
               <span className="text-blue-600 text-[10px] font-black uppercase tracking-[0.4em] mb-6 block italic">Our Philosophy</span>
               <h1 className="text-7xl font-black uppercase tracking-tighter leading-[0.8] mb-12 italic">The Truth <br/>in Numbers.</h1>
               <p className="text-xl text-slate-500 font-medium leading-relaxed">
-                 We believe inventory is the lifeblood of enterprise. Inaccuracy is a lethal friction. BlueLedger was built to eliminate that friction through mathematical precision and high-frequency synchronization.
+                 We believe inventory is the lifeblood of enterprise. Inaccuracy is a lethal friction. Warenova was built to eliminate that friction through mathematical precision and high-frequency synchronization.
               </p>
            </div>
            <div className="relative">

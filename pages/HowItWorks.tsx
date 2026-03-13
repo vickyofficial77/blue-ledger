@@ -6,7 +6,7 @@ const HowItWorks: React.FC = () => {
     <div className="min-h-screen bg-white text-slate-900 font-sans selection:bg-blue-100">
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-md border-b border-slate-100 z-50">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">BlueLedger</Link>
+          <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">Warenova</Link>
           <Link to="/login" className="text-[10px] font-black uppercase tracking-widest bg-slate-900 text-white px-6 py-2 shadow-lg shadow-slate-900/20 active:translate-y-0.5 transition-all">Operator Portal</Link>
         </div>
       </nav>
@@ -18,7 +18,7 @@ const HowItWorks: React.FC = () => {
             <h1 className="text-7xl md:text-8xl font-black uppercase tracking-tighter leading-[0.85]">The Ledger <br/>Architecture.</h1>
           </div>
           <p className="text-slate-500 text-lg leading-relaxed max-w-xl animate-in fade-in slide-in-from-right duration-700 delay-100">
-            BlueLedger isn't just a database; it's a high-frequency synchronization engine engineered to eliminate inventory drift across massive, distributed retail networks.
+            Warenova isn't just a database; it's a high-frequency synchronization engine engineered to eliminate inventory drift across massive, distributed retail networks.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ const HowItWorks: React.FC = () => {
                </ul>
             </div>
             <div className="bg-slate-900 text-white p-12">
-               <span className="text-blue-500 text-[9px] font-black uppercase tracking-widest mb-4 block">BlueLedger Protocol</span>
+               <span className="text-blue-500 text-[9px] font-black uppercase tracking-widest mb-4 block">Warenova Protocol</span>
                <h4 className="text-xl font-black uppercase mb-6">Sync Core Engine</h4>
                <ul className="space-y-4 text-xs font-bold text-white uppercase tracking-widest">
                   <li className="flex items-center space-x-2 text-blue-500"><span>✓</span> <span>Latency: &lt; 100ms</span></li>
@@ -106,7 +106,7 @@ const HowItWorks: React.FC = () => {
         <div className="bg-slate-900 p-20 text-white flex flex-col md:flex-row items-center justify-between gap-12 shadow-2xl">
            <div className="max-w-xl">
              <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter leading-none mb-6">Ready to upgrade <br/>to precision sync?</h2>
-             <p className="text-slate-400 text-sm leading-relaxed">Join 500+ enterprises who have eliminated inventory drift with BlueLedger.</p>
+             <p className="text-slate-400 text-sm leading-relaxed">Join 500+ enterprises who have eliminated inventory drift with Warenova.</p>
            </div>
            <Link to="/signup" className="px-12 py-6 bg-blue-600 text-white font-black uppercase tracking-widest text-xs hover:bg-white hover:text-slate-900 transition-all shadow-xl active:translate-y-1">Provision My Ledger</Link>
         </div>

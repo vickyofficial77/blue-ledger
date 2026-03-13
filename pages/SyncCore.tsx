@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,7 +5,7 @@ const SyncCore: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans">
       <nav className="h-20 border-b border-slate-200 bg-white flex items-center justify-between px-6 max-w-7xl mx-auto sticky top-0 z-50">
-        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">BlueLedger</Link>
+        <Link to="/" className="text-xl font-black uppercase tracking-tighter text-blue-600">Warenova</Link>
         <Link to="/infrastructure" className="text-[10px] font-black uppercase tracking-widest text-slate-400">Back to Infra</Link>
       </nav>
 
@@ -15,7 +14,7 @@ const SyncCore: React.FC = () => {
           <span className="text-blue-600 text-[10px] font-black uppercase tracking-[0.4em] mb-4 block italic">Core Protocol</span>
           <h1 className="text-7xl font-black uppercase tracking-tighter leading-[0.8] mb-12 italic">Sync <br/><span className="text-blue-600">Core</span> v2.</h1>
           <p className="text-xl text-slate-500 font-medium leading-relaxed max-w-2xl">
-            The heart of BlueLedger is the synchronization engine. It handles high-concurrency requests by treating every inventory update as a "Sacred Transaction."
+            The heart of Warenova is the synchronization engine. It handles high-concurrency requests by treating every inventory update as a "Sacred Transaction."
           </p>
         </div>
 
