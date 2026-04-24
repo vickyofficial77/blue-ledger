@@ -294,9 +294,8 @@ const Landing: React.FC = () => {
               <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400 mt-2">© 2025 WareNova Systems LLC. <br/>Precision Operations Guaranteed.</span>
             </div>
             <div className="flex space-x-6 text-[10px] font-black uppercase tracking-widest text-slate-400 underline decoration-slate-200 underline-offset-4">
-              <a href="#" className="hover:text-blue-600">Twitter</a>
-              <a href="#" className="hover:text-blue-600">Github</a>
-              <a href="#" className="hover:text-blue-600">Discord</a>
+              <a href="https://x.com/vicky_oofficial" className="hover:text-blue-600">Twitter</a>
+              <a href="https://github.com/vickyofficial77" className="hover:text-blue-600">Github</a>
             </div>
           </div>
           <div className="space-y-6">
