@@ -19,7 +19,6 @@ import {
   Send,
   ShoppingBag,
   Trash2,
-  TrendingUp,
   User,
   X,
   ChevronLeft,
@@ -375,7 +374,6 @@ const WorkerDashboard: React.FC = () => {
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
       {[
         { label: 'Available Products', value: formatNumber(dashboardStats.availableProducts), icon: ShoppingBag, color: 'from-blue-500 to-indigo-600', sub: `Total: ${dashboardStats.totalProducts}` },
-        { label: 'Stock Value', value: formatRWF(dashboardStats.totalStockValue), icon: TrendingUp, color: 'from-emerald-500 to-teal-600', sub: 'Current inventory' },
         { label: 'Sold Today', value: formatNumber(dashboardStats.totalSoldToday), icon: Activity, color: 'from-amber-500 to-orange-600', sub: 'Daily sales' },
         { label: 'Admin Likes', value: formatNumber(dashboardStats.likedMessages), icon: Heart, color: 'from-pink-500 to-rose-600', sub: 'Liked messages' },
       ].map((stat) => (
